@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.alexarchambault.test</groupId>
+  <artifactId>hello-world_2.11</artifactId>
+  <packaging>jar</packaging>
+  <version>0.4</version>
+  <name>MavenHelloWorldProject</name>
+  <url>http://maven.apache.org</url>
+  <scm>
+    <connection>scm:git:https://github.com/alexarchambault/test-gh-package-registry-2.git</connection>
+    <developerConnection>scm:git:https://github.com/alexarchambault/test-gh-package-registry-2.git</developerConnection>
+    <url>https://github.com/alexarchambault/test-gh-package-registry-2</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub alexarchambault Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/alexarchambault</url>
+    </repository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
